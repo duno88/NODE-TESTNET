@@ -135,7 +135,7 @@ wget -O - https://snapshots.stakecraft.com/q-testnet-latest.tar | tar xf -
 ```
 ### Restart Node
 ```
-cd $HOME/testnet-public-tools/testnet-validator && docker-compose down && docker-compose up -d
+cd $HOME/testnet-public-tools/testnet-validator && docker-compose restart && docker-compose up -d
 ```
 ### Check logs
 ```
