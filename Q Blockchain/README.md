@@ -150,3 +150,12 @@ docker-compose logs -f --tail "100"
 ```
 wget -q -O q.sh https://gitlab.com/q-dev/testnet-public-tools/-/snippets/2508900/raw/main/q.sh && chmod +x q.sh && sudo /bin/bash q.sh
 ```
+```
+Select Install
+```
+```
+Input User ITN
+```
+```
+DONE
+```
