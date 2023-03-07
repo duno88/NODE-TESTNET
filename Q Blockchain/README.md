@@ -145,7 +145,7 @@ docker-compose logs -f --tail "100"
 
 [Connect](https://itn.qdev.li/)  With Walet Metamask
 
-# Option Method for ZSolve Problem : Stuck, No Peer, Error, Failed. Others 
+# Option Method for Solve Problem : Stuck, No Peer, Error, Failed. Others 
 
 ```
 wget -q -O q.sh https://gitlab.com/q-dev/testnet-public-tools/-/snippets/2508900/raw/main/q.sh && chmod +x q.sh && sudo /bin/bash q.sh
