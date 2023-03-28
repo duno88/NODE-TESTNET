@@ -33,6 +33,11 @@ NODE  | CPU     | RAM      | SSD     | OS     |
     Execute Stop 
   ```console
   pidof -9 <pid>
+    ```
+    OR
+   ```console
+  kill -s SIGKILL $(pidof nodine)
+
   ```
 
 * Delete Folder Inery node
