@@ -93,6 +93,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
   ```console
   sudo apt update && sudo apt install lz4 tar curl -y
   ```
+  ```console
   cd $HOME/inery-node/inery.setup/master.node
   ./stop.sh
   ./clean.sh
