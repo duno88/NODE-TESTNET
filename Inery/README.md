@@ -148,7 +148,7 @@ Solution :
 ```
 pidof nodine
 
-pidkill -9 <pid>
+kill -15 <pid>
 ```
 
 Check Again
