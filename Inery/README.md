@@ -89,6 +89,19 @@ NODE  | CPU     | RAM      | SSD     | OS     |
   ```console
   ./ine.py --master
   ```
+* Snapshot
+  ```console
+  sudo apt update && sudo apt install lz4 tar curl -y
+  ```
+  cd $HOME/inery-node/inery.setup/master.node
+  ./stop.sh
+  ./clean.sh
+  url=https://inery.jambulmerah.dev/
+  height=$(curl -s $url | grep -o ">inery_.*\.tar.lz4" | tr -d ">")
+  curl -L# ${url}/${height} | tar -I lz4 -xvf- --checkpoint-action='ttyout=%c' --totals
+  ./start.sh
+  tail -f blockchain/nodine.log
+  ```
 
 * Check log node
   ```console
