@@ -103,7 +103,14 @@ NODE  | CPU     | RAM      | SSD     | OS     |
   ./start.sh
   tail -f blockchain/nodine.log
   ```
-
+* Info Heigh block
+  ```console
+  curl -sSL -X POST 'http://bis.blockchain-servers.world:8888/v1/chain/get_info' -H 'Accept: application/json' | jq
+  ```
+* Info Local block
+  ```console
+  curl -sSL -X POST 'http://localhost:8888/v1/chain/get_info' -H 'Accept: application/json' | jq
+  ```
 * Check log node
   ```console
   tail -f master.node/blockchain/nodine.log
