@@ -32,7 +32,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
   ```
     Execute Stop 
   ```console
-  pidof -9 <pid>
+  kill -15 <pid>
     ```
     OR
    ```console
